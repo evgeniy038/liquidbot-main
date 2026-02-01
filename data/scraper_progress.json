@@ -1,0 +1,254 @@
+{
+  "1442583721596293180": {
+    "channel_name": "⎜daily-report",
+    "first_scraped": "2025-11-26T06:20:52.930907",
+    "total_messages": 4,
+    "last_message_id": "1443503967630786661",
+    "last_scraped": "2025-11-27T09:32:11.746194"
+  },
+  "1436800952110944337": {
+    "channel_name": "⎜core-comms",
+    "first_scraped": "2025-11-26T06:20:53.163591",
+    "total_messages": 235,
+    "last_message_id": "1466292771286417523",
+    "last_scraped": "2026-01-29T06:12:51.009410"
+  },
+  "1436227383500869774": {
+    "channel_name": "📣⎜updates",
+    "first_scraped": "2025-11-26T06:20:53.460528",
+    "total_messages": 2,
+    "last_message_id": "1457913816946839742",
+    "last_scraped": "2026-01-07T22:23:20.573247"
+  },
+  "1436226527824969791": {
+    "channel_name": "🪩⎜community-news",
+    "first_scraped": "2025-11-26T06:20:53.524046",
+    "total_messages": 7,
+    "last_message_id": "1449117994168090718",
+    "last_scraped": "2025-12-14T14:55:01.026300"
+  },
+  "1440769445755752549": {
+    "channel_name": "🗓️⎜events",
+    "first_scraped": "2025-11-26T06:20:53.687449",
+    "total_messages": 13,
+    "last_message_id": "1466116679137234947",
+    "last_scraped": "2026-01-29T06:12:52.736635"
+  },
+  "1436228027297169540": {
+    "channel_name": "🌐⎜socials",
+    "first_scraped": "2025-11-26T06:20:53.919125",
+    "total_messages": 1,
+    "last_message_id": "1441428150759460997",
+    "last_scraped": "2025-11-26T06:20:53.919138"
+  },
+  "1436229572403400887": {
+    "channel_name": "📦⎜work",
+    "first_scraped": "2025-11-26T06:20:59.571308",
+    "total_messages": 857,
+    "last_message_id": "1466297769974169704",
+    "last_scraped": "2026-01-29T06:12:54.272164"
+  },
+  "1436800647738429512": {
+    "channel_name": "⎜mod-comms",
+    "first_scraped": "2025-11-26T06:21:01.141943",
+    "total_messages": 983,
+    "last_message_id": "1466231317292384398",
+    "last_scraped": "2026-01-29T06:12:50.987300"
+  },
+  "1441524601187467404": {
+    "channel_name": "🪄⎜content",
+    "first_scraped": "2025-11-26T06:21:01.551549",
+    "total_messages": 433,
+    "last_message_id": "1466297022209458284",
+    "last_scraped": "2026-01-29T06:12:55.262124"
+  },
+  "1441543127977431060": {
+    "channel_name": "📈⎜trading",
+    "first_scraped": "2025-11-26T06:21:02.321056",
+    "total_messages": 103,
+    "last_message_id": "1450836768894222476",
+    "last_scraped": "2025-12-17T13:34:58.845009"
+  },
+  "1442173766271766609": {
+    "channel_name": "⎜mascot",
+    "first_scraped": "2025-11-26T06:21:02.456553",
+    "total_messages": 111,
+    "last_message_id": "1447881498920222781",
+    "last_scraped": "2025-12-11T17:43:34.918353"
+  },
+  "1436228508996341881": {
+    "channel_name": "🚨⎜report-scam",
+    "first_scraped": "2025-11-26T06:21:03.712617",
+    "total_messages": 204,
+    "last_message_id": "1466090963511410880",
+    "last_scraped": "2026-01-29T06:12:56.439296"
+  },
+  "1436229724169965600": {
+    "channel_name": "⚙️⎜bugs",
+    "first_scraped": "2025-11-26T06:21:04.390585",
+    "total_messages": 471,
+    "last_message_id": "1465653751326183576",
+    "last_scraped": "2026-01-28T06:10:42.555861"
+  },
+  "1437513161858224158": {
+    "channel_name": "🧠⎜brain-drops",
+    "first_scraped": "2025-11-26T06:21:04.905102",
+    "total_messages": 68,
+    "last_message_id": "1448724858061197512",
+    "last_scraped": "2025-12-11T17:43:39.777833"
+  },
+  "1442208099481030696": {
+    "channel_name": "🗳️⎜nominations",
+    "first_scraped": "2025-11-26T06:21:05.674248",
+    "total_messages": 2,
+    "last_message_id": "1444720281443631205",
+    "last_scraped": "2025-11-30T16:54:15.665844"
+  },
+  "1436228451676848129": {
+    "channel_name": "💧⎜gliquid",
+    "first_scraped": "2025-11-26T06:21:19.308559",
+    "total_messages": 3293,
+    "last_message_id": "1466314322467754004",
+    "last_scraped": "2026-01-29T06:12:55.247264"
+  },
+  "1437510918568411196": {
+    "channel_name": "🫧⎜chat",
+    "first_scraped": "2025-11-26T06:21:20.833166",
+    "total_messages": 1713,
+    "last_message_id": "1448743861013975112",
+    "last_scraped": "2025-12-11T19:22:50.608762"
+  },
+  "1437479234938343515": {
+    "channel_name": "⎜mee6-log",
+    "first_scraped": "2025-11-26T06:21:22.466436",
+    "total_messages": 8,
+    "last_message_id": "1440064158761750720",
+    "last_scraped": "2025-11-26T06:21:22.466452"
+  },
+  "1437175965846339796": {
+    "channel_name": "☁️⎜lounge",
+    "first_scraped": "2025-11-26T06:41:56.143339",
+    "total_messages": 122760,
+    "last_message_id": "1466314945984729181",
+    "last_scraped": "2026-01-29T06:13:30.523976"
+  },
+  "1440110894909493360": {
+    "channel_name": "⎜security-log",
+    "first_scraped": "2025-11-27T17:34:06.653297",
+    "total_messages": 0,
+    "last_message_id": "1444643651819933716",
+    "last_scraped": "2025-11-30T11:50:00.238439"
+  },
+  "1444719957102559354": {
+    "channel_name": "⎜check-ins",
+    "first_scraped": "2025-12-01T13:19:20.114091",
+    "total_messages": 42,
+    "last_message_id": "1466242377525231708",
+    "last_scraped": "2026-01-29T06:12:50.957769"
+  },
+  "1444372715006857256": {
+    "channel_name": "⎜issues",
+    "first_scraped": "2025-12-02T15:59:26.512486",
+    "total_messages": 37,
+    "last_message_id": "1466307195892142122",
+    "last_scraped": "2026-01-29T06:12:51.175464"
+  },
+  "1442584470661369989": {
+    "channel_name": "⎜inactive-users",
+    "first_scraped": "2025-12-11T17:43:36.556611",
+    "total_messages": 0,
+    "last_message_id": "1448213512399622236",
+    "last_scraped": "2025-12-11T17:43:36.556630"
+  },
+  "1449085431051194368": {
+    "channel_name": "🗳️⎜parliament",
+    "first_scraped": "2025-12-14T14:55:02.875289",
+    "total_messages": 51,
+    "last_message_id": "1466279893749858305",
+    "last_scraped": "2026-01-29T06:12:55.070099"
+  },
+  "1437511148046913747": {
+    "channel_name": "⚔️⎜choose-your-guild",
+    "first_scraped": "2025-12-14T14:55:04.104776",
+    "total_messages": 55,
+    "last_message_id": "1464893117772730543",
+    "last_scraped": "2026-01-25T08:46:46.317379"
+  },
+  "1441453165940707428": {
+    "channel_name": "🛟⎜helpers",
+    "first_scraped": "2025-12-14T17:16:36.914672",
+    "total_messages": 5829,
+    "last_message_id": "1466025300595970247",
+    "last_scraped": "2026-01-29T06:12:55.871885"
+  },
+  "1449081123991978142": {
+    "channel_name": "💬⎜design-circle",
+    "first_scraped": "2025-12-15T14:32:58.288234",
+    "total_messages": 306,
+    "last_message_id": "1466135837023535428",
+    "last_scraped": "2026-01-29T06:12:55.890119"
+  },
+  "1450135216893989016": {
+    "channel_name": "🎨⎜sticker",
+    "first_scraped": "2025-12-15T17:31:45.133390",
+    "total_messages": 20,
+    "last_message_id": "1451282551258878022",
+    "last_scraped": "2025-12-18T18:40:26.791332"
+  },
+  "1436851546850594906": {
+    "channel_name": "🥂⎜promotions",
+    "first_scraped": "2025-12-18T11:17:32.879838",
+    "total_messages": 0,
+    "last_message_id": "1454077140659077331",
+    "last_scraped": "2025-12-26T14:24:02.380418"
+  },
+  "1449092547313143808": {
+    "channel_name": "🤝⎜contribute",
+    "first_scraped": "2025-12-24T23:52:11.715033",
+    "total_messages": 8,
+    "last_message_id": "1463276150213312868",
+    "last_scraped": "2026-01-25T08:46:43.127372"
+  },
+  "1436228091717353472": {
+    "channel_name": "💠⎜lobby",
+    "first_scraped": "2025-12-25T13:24:30.000912",
+    "total_messages": 1,
+    "last_message_id": "1453740169940439214",
+    "last_scraped": "2025-12-25T13:24:30.000920"
+  },
+  "1454200786237259948": {
+    "channel_name": "⎜lounge-archived",
+    "first_scraped": "2025-12-28T16:55:51.714041",
+    "total_messages": 2,
+    "last_message_id": "1454216479439327302",
+    "last_scraped": "2025-12-28T16:55:51.714048"
+  },
+  "1456784945413492776": {
+    "channel_name": "🖼️⎜axel",
+    "first_scraped": "2026-01-07T22:23:25.334401",
+    "total_messages": 0,
+    "last_message_id": "1458561495007760406",
+    "last_scraped": "2026-01-07T22:23:25.334411"
+  },
+  "1462081793342574801": {
+    "channel_name": "⎜memes",
+    "first_scraped": "2026-01-17T19:43:40.220552",
+    "total_messages": 6,
+    "last_message_id": "1463594050979627211",
+    "last_scraped": "2026-01-25T08:46:42.275506"
+  },
+  "1463272863544115312": {
+    "channel_name": "🌈│emojis",
+    "first_scraped": "2026-01-25T08:46:46.122386",
+    "total_messages": 0,
+    "last_message_id": "1465783501432291480",
+    "last_scraped": "2026-01-28T06:10:42.729149"
+  },
+  "1466111722136928277": {
+    "channel_name": "🎬│videos",
+    "first_scraped": "2026-01-29T06:12:55.362685",
+    "total_messages": 0,
+    "last_message_id": "1466219788530356397",
+    "last_scraped": "2026-01-29T06:12:55.362740"
+  }
+}

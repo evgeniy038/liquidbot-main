@@ -1,0 +1,53 @@
+# Channels Configuration
+# Centralized channel IDs for the bot
+
+channels:
+   # Report channels
+  daily_report: "1442583721596293180"
+  activity_report: "1442584470661369989"
+  nomination: "1442208099481030696"
+  
+  # Moderation channels
+  scam_alerts: "1440110894909493360"
+  impersonation_log: "1440110894909493360"
+  promotion_announcements: "1436851546850594906"
+  
+  # Content filter channels (per-channel rules defined in content_filter.py)
+  # - 1436229572403400887 (contributions): only x.com links allowed
+  # - 1441524601187467404 (content): only attachments allowed, no links
+  content_filtered:
+    - "1436229572403400887"
+    - "1441524601187467404"
+  
+  # Announcement channels to index for RAG (bot will use these to answer questions)
+  indexed_for_rag:
+    - "1436227383500869774"
+    - "1436226527824969791"
+    - "1440769445755752549"
+  
+  # AI Artist channels (image generation only works in these channels)
+  # Add your channel IDs here
+  artist:
+    - "1234567890123456789"  # Replace with actual artist channel ID
+
+channel_purposes:
+  # Community
+  "1436227383500869774": "lounge - general chat and community discussions| open to all users"
+  "1436228451676848129": "gliquid - gm/gliquid greetings and vibes only | open to all users"
+  "1436229572403400887": "contributions - channel for sharing contributions | open to all users"
+  "1441524601187467404": "content - channel for sharing content and media | open to all users"
+  "1441543127977431060": "trading - channel for trading discussions and market analysis | open to all users"
+
+  # Support
+  "1436229724169965600": "bugs - channel for reporting issues and bugs | open to all users"
+  "1436791444961755226": "support - channel for support tickets | open to all users"
+  "1436228508996341881": "report scams - channel for reporting scam attempts | open to all users"
+
+  # Official
+  "1436227383500869774": "updates - official announcements and updates | read only"
+  "1436226527824969791": "coummunity news - announcements and news for the community | read only"
+  "1440769445755752549": "events - community events and games | read only"
+  "1436851546850594906": "promotions - role promotion announcements| read only"
+  "1436228027297169540": "socials - Liquid official X posts | read only"
+  "1436228091717353472": "about liquid - about roles, rules and links | read only"
+ 

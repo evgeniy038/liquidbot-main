@@ -1,0 +1,147 @@
+# Roles Configuration
+# Centralized role IDs for the bot
+
+roles:
+  # Admin & Moderation roles
+  Staff: "1436799852171235472"
+  Automata: "1436233268134678600"
+  Moderator: "1436217207825629277"
+
+  command_access:
+    - "1436799852171235472"  # Staff
+    - "1436767320239243519"  # Mish
+
+  # Guild paths with tiers
+  guilds:
+    traders:
+      name: "traders"
+      role_id: "1447974772662079549"
+      roles:
+        tide:
+          id: "1449055127049605312"
+          tier: 1
+        degen:
+          id: "1449055171685515354"
+          tier: 2
+        speculator:
+          id: "1449055325020754100"
+          tier: 3
+    content:
+      name: "content"
+      divisions:
+        educators:
+          name: "Educators Division"
+          role_id: "1449051926665760852"
+        trendmakers:
+          name: "Trendmakers Division"
+          role_id: "1447974925712363614"
+      roles:
+        drip:
+          id: "1449054897486954506"
+          tier: 1
+        frame:
+          id: "1449054975107010673"
+          tier: 2
+        orator:
+          id: "1449055051829084353"
+          tier: 3
+    designers:
+      name: "designers"
+      role_id: "1447974376438763671"
+      roles:
+        ink:
+          id: "1449054607899758726"
+          tier: 1
+        sketch:
+          id: "1449054761650225244"
+          tier: 2
+        sculptor:
+          id: "1449054806038675569"
+          tier: 3
+
+  # Community roles (for promotions and activity tracking)
+  community:
+    wave: "1436827617993953361"
+    tide: "1436827751922274386"
+    current: "1436827711288119466"
+    all_in Liquid: "1436825727029874698"
+    founding_droplets: "1436826732043698370"
+    liquid_frens: "1436826786821312663"
+    tsunami: "1443238384234659881"
+    event winner: "1443237596384985263"
+  
+  # Parliament role for portfolio voting
+  parliament: "1447972806339067925"
+
+  # Whitelists
+  whitelists:
+    # Roles exempt from activity checks
+    activity_exempt:
+      - "1436799852171235472"
+      - "1436233268134678600"
+      - "1436217207825629277"
+    
+    
+    # Roles exempt from content filtering
+    content_filter_exempt:
+      - "1436799852171235472"
+      - "1436233268134678600"
+      - "1436217207825629277"
+    
+    # Roles that can nominate users
+    nominators:
+    - "1436827617993953361"
+    - "1436827751922274386"
+    - "1436827711288119466"
+    - "1436825727029874698"
+    - "1436826732043698370"
+    - "1436826786821312663"
+    - "1443238384234659881"
+    
+    
+    # Roles that can use /react_all command (in addition to admins)
+    react_all_users:
+      - "1436799852171235472"
+      - "1436233268134678600"
+      - "1436217207825629277"
+    
+  
+  # Roles to monitor for activity
+  monitored:
+    - "1436827617993953361"
+    - "1436827751922274386"
+    - "1436827711288119466"
+    - "1436825727029874698"
+    - "1436826732043698370"
+    - "1436826786821312663"
+    - "1443238384234659881"
+ 
+
+  
+  # Roles that trigger promotion announcements
+  promotion_roles:
+    - "1436827617993953361"
+    - "1436827751922274386"
+    - "1436827711288119466"
+    - "1436825727029874698"
+    - "1436826732043698370"
+    - "1436826786821312663"
+    - "1443237596384985263"
+    - "1443238384234659881"
+    # Guild path roles - traders
+    - "1449055127049605312"  # tide (tier 1)
+    - "1449055171685515354"  # degen (tier 2)
+    - "1449055325020754100"  # speculator (tier 3)
+    # Guild path roles - content
+    - "1449054897486954506"  # drip (tier 1)
+    - "1449054975107010673"  # frame (tier 2)
+    - "1449055051829084353"  # orator (tier 3)
+    # Guild path roles - designers
+    - "1449054607899758726"  # ink (tier 1)
+    - "1449054761650225244"  # sketch (tier 2)
+    - "1449054806038675569"  # sculptor (tier 3)
+    
+  
+  # Scam detection - check users whose HIGHEST role is in this list
+  scam_check:
+    - "1436797285794189454"  # Only check users whose highest role is RU

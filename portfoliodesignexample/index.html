@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortfolioHub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --color-bg: #131318;
+        --color-text: #FFFFFF;
+        --color-text-secondary: #949494;
+        --color-primary: #EDEDFF;
+        --color-primary-text: #131318;
+        --color-accent: #E0DFEF;
+        --color-card-bg: #1A1A23;
+        --color-badge-border: rgba(224, 223, 239, 0.1);
+      }
+      
+      body {
+        background-color: var(--color-bg);
+        color: var(--color-text);
+        font-family: 'Inter', sans-serif;
+        min-height: 100vh;
+      }
+
+      .font-playfair {
+        font-family: 'Playfair Display', serif;
+      }
+      
+      /* Utility class for glassmorphism card style defined in requirements */
+      .glass-card {
+        background-color: var(--color-card-bg);
+        border: 1px solid var(--color-badge-border);
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        backdrop-filter: blur(20px);
+      }
+
+      /* Custom Scrollbar for nicer look in dark mode */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #131318; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #2d2d35; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #3e3e4a; 
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: 'var(--color-bg)',
+              primary: 'var(--color-primary)',
+              'primary-text': 'var(--color-primary-text)',
+              secondary: 'var(--color-text-secondary)',
+              accent: 'var(--color-accent)',
+              'card-bg': 'var(--color-card-bg)',
+              'badge-border': 'var(--color-badge-border)',
+            },
+            fontFamily: {
+              inter: ['Inter', 'sans-serif'],
+              playfair: ['Playfair Display', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

@@ -1,0 +1,426 @@
+# Features Configuration (Reports, About Command, Member Updates)
+
+# Daily Reports
+reports:
+  enabled: true
+  channel_id: ${channels.daily_report}  # From channels.yaml
+  schedule:
+    hour: 5  # UTC hour (5 AM UTC)
+    minute: 0
+  days_to_analyze: 1  # Number of days to include in report
+
+# About Command
+about_command:
+  enabled: true
+  cooldown_seconds: 60  # Cooldown between uses in same channel
+  
+  # Button emojis (use standard or custom Discord emojis)
+  # Custom emoji format: "<:emoji_name:emoji_id>" or "<a:animated_name:emoji_id>"
+  # To get emoji ID: Type \:emoji_name: in Discord or enable Developer Mode and right-click emoji
+  button_emojis:
+    links: "📎"  # Standard emoji or custom: "<:liquid_link:123456789>"
+    rules: "📜"  # Standard emoji or custom: "<:liquid_rules:123456789>"
+    roles: "🎭"  # Standard emoji or custom: "<:liquid_roles:123456789>"
+  
+  # Main embed content
+  main:
+    title: "about liquid"
+    description: |
+      welcome to liquid. this is your starting point.
+      
+      **what liquid is**
+      a modern trading app built for mobile users. we're building a perp dex aggregator you'll actually want to use. that's it.
+      
+      **what to do**
+      read updates · join chat · explore · contribute when ready
+      
+      **good to know**
+      we never dm first. anyone who does is not us.
+    color: 0x83C2EB
+    image_url: "https://media.discordapp.net/attachments/1441453165940707428/1455276269406126080/about-2.png?ex=69542324&is=6952d1a4&hm=3f01a89508b5883e9fa742218068e0549aeeec6c44adb8e7aed33ecaff58f2a5&=&format=webp&quality=lossless&width=1100&height=618"  # Direct image URL (not page URL) 
+  
+  # Section embeds (shown when buttons are clicked)
+  sections:
+    links:
+      title: "🌐 official links"
+      description: |
+        only trust these. if it's not here, assume it's fake.
+        
+        - website: **https://tryliquid.xyz/**
+        - x (twitter): **https://twitter.com/liquidtrading**
+        - docs: **https://docs.tryliquid.xyz/**
+        - telegram: **https://t.me/liquid_perps**
+        - brandkit: **https://tryliquid.xyz/brand**
+        
+        tip · watch for misspellings · we never dm first
+      color: 0x83C2EB  # Blue
+      image_url: "https://media.discordapp.net/attachments/1441453165940707428/1454882819250852075/official_links.png?ex=6952b4b6&is=69516336&hm=c62f5989efca3c1fbb5a0b3174814e5f06ba32ae5296594bd227920c4b20aa74&=&format=webp&quality=lossless&width=2838&height=1596"
+    
+    rules:
+      title: "📜 community rules"
+      description: |
+        we know most people skip this, so here's the short version:
+        
+        1️⃣ **be human** · no spam · no scams
+
+        2️⃣ **no impersonation** of team or partners
+
+        3️⃣ **be respectful** · no hate or harassment
+
+        4️⃣ **no fake links** or dms for "help"
+
+        5️⃣ market talk is fine · **no financial advice framing**
+
+        6️⃣ **see something off?** drop it in https://discord.com/channels/1436216692299796563/1436228508996341881 so we can act fast
+      color: 0x83C2EB  # Gray
+      image_url: "https://media.discordapp.net/attachments/1441453165940707428/1454882820081320180/rules.png?ex=6952b4b6&is=69516336&hm=a74711c69acc92bfd19411b5ba7d5e53fc0046973d69d5f6199826e63f708956&=&format=webp&quality=lossless&width=2838&height=1596"
+    
+    roles:
+      title: "💧 the liquid collective"
+      description: |
+        before we move on, here's something to know: this isn't a server for badges or titles. roles here mean something. they're earned through trust, effort and actually showing up.
+        
+        if you're here just for rewards, this isn't for you. if you're here because you believe in what we stand for, you'll fit right in.
+        
+        > **team roles**
+        the people behind liquid.
+        
+        **<:staff:1438608794648187082> staff**
+        liquid's core team. they'll never DM you first. ever.
+        
+        **<:moderator:1438572280157442108> moderator**
+        guides who keep things running smooth. if you need help, ping them, they've got you.
+        
+        > **community roles. the higher the tier, the more recognizable you are.**
+        begin as a droplet and rise through the depths.
+        
+        **<:current:1438572402727452834> current (T1)**
+        active every day. keeps the chat alive.
+        
+        **<:tide:1438572329746567219> tide (T2)**
+        reliable contributors who help out behind the scenes. they might not talk much, but they're always here, supporting the community.
+        
+        **<:wave:1438572366518161631> wave (T2)**
+        respected regulars. the people others look up to.
+        
+        **<:tsunami:1443292374192095395> tsunami (T3)**
+        strong presence in the community. always around.
+        
+        **<:allin:1438572205444431914> all in (elite)**
+        deeply involved. part of what makes liquid, liquid.
+        
+        **<:foundingdroplet:1438572470130049034> founding droplet (OG)**
+        the earliest supporters, they started it all.
+        
+        **<:winner:1443290849806123160> event winner**
+        people who played hard and came out on top. simple as that.
+        
+        **<:cheerleader:1438572306107600978> big drop (server booster)**
+        members who've thrown in a boost to support us.
+        
+        **still building:** roles will evolve as the community grows.
+      color: 0x6FC5EF
+      
+      additional_embed:
+        title: "⚠️ do not ask for roles"
+        description: |
+          please don't DM the team asking for roles, that's not how it works here.
+          
+          roles are given based on trust and contribution. sometimes the community nominates you, sometimes the team notices, either way, it happens naturally.
+          
+          inactive members may lose roles so others have the chance to earn them.
+        color: 0x6FC5EF  # Orange
+        image_url: "https://media.discordapp.net/attachments/.../roles.png"
+  
+  # Events ping toggle button
+  events_ping:
+    role_id: "1444695708816117923"  # Replace with your events ping role ID
+  
+  # Branding
+  footer:
+    text: "tryliquid.xyz"
+    icon_url: "https://i.imgur.com/mSMjmxY.png"  # Direct imgur link (not page)
+
+# Member Update Features
+member_update:
+  # Anti-impersonation settings
+  anti_impersonation:
+    enabled: true
+    similarity_threshold: 0.75  # 75% similarity triggers warning
+    hard_threshold: 0.90  # 90% similarity is high-confidence impersonation
+    log_channel_id: ${channels.impersonation_log}  # From channels.yaml
+    
+    # Users with this many messages are considered trusted (skip impersonation check)
+    trusted_message_count: 50
+    
+    # Staff names to protect (add your staff usernames/nicknames)
+    protected_names:
+      # Staff/Admin names
+      - "admin"
+      - "Admin"
+      - "ADMIN"
+      - "administrator"
+      - "Administrator"
+      - "moderator"
+      - "Moderator"
+      - "mod"
+      - "Mod"
+      - "staff"
+      - "Staff"
+      - "support"
+      - "Support"
+      - "helper"
+      - "Helper"
+      - "owner"
+      - "Owner"
+      
+      # Project names
+      - "liquid"
+      - "Liquid"
+      - "LIQUID"
+      - "luma"
+      - "Luma"
+      - "LUMA"
+      - "hyperliquid"
+      - "Hyperliquid"
+      - "HyperLiquid"
+      - "HYPERLIQUID"
+      - "announcements"
+      - "Announcements"
+      
+      # Known bot names (various cases)
+      - "MEE6"
+      - "Mee6"
+      - "mee6"
+      - "MEE 6"
+      - "Carl-bot"
+      - "Carl bot"
+      - "carl-bot"
+      - "Carlbot"
+      - "CARL-BOT"
+      - "Dyno"
+      - "dyno"
+      - "DYNO"
+      - "Dank Memer"
+      - "DankMemer"
+      - "dank memer"
+      - "DANK MEMER"
+      - "Arcane"
+      - "arcane"
+      - "ARCANE"
+      - "ProBot"
+      - "Probot"
+      - "probot"
+      - "PROBOT"
+      - "Ticket Tool"
+      - "TicketTool"
+      - "ticket tool"
+      - "TICKET TOOL"
+      - "Tatsu"
+      - "tatsu"
+      - "TATSU"
+      - "Hydra"
+      - "hydra"
+      - "HYDRA"
+      - "Rythm"
+      - "rythm"
+      - "RYTHM"
+      - "Groovy"
+      - "groovy"
+      - "GROOVY"
+      - "FredBoat"
+      - "Fredboat"
+      - "fredboat"
+      - "FREDBOAT"
+      - "Automod"
+      - "AutoMod"
+      - "automod"
+      - "AUTOMOD"
+      - "Sapphire"
+      - "sapphire"
+      - "SAPPHIRE"
+      - "Yggdrasil"
+      - "yggdrasil"
+      - "YGGDRASIL"
+      - "UnbelievaBoat"
+      - "Unbelievaboat"
+      - "unbelievaboat"
+      - "UNBELIEVABOAT"
+      - "YAGPDB"
+      - "yagpdb"
+      - "Yagpdb"
+      - "ServerStats"
+      - "Server Stats"
+      - "serverstats"
+      - "Statbot"
+      - "StatBot"
+      - "statbot"
+      - "STATBOT"
+      - "Collab.Land"
+      - "Collab Land"
+      - "CollabLand"
+      - "collab.land"
+      - "COLLAB.LAND"
+      - "Captcha.bot"
+      - "Captcha Bot"
+      - "captcha.bot"
+      - "CAPTCHA.BOT"
+      - "Wick"
+      - "wick"
+      - "WICK"
+      - "Bloxlink"
+      - "bloxlink"
+      - "BLOXLINK"
+      - "Xenon"
+      - "xenon"
+      - "XENON"
+    
+    # Role IDs that are exempt from checks (trusted roles)
+    # Configured in roles.yaml
+    trusted_role_ids: ${roles.whitelists.activity_exempt}
+  
+  # Promotion announcements
+  promotions:
+    enabled: true
+    channel_id: ${channels.promotion_announcements}  # From channels.yaml
+    debounce_seconds: 5  # Prevent spam by debouncing rapid role changes
+    
+    # Role IDs that trigger promotion announcements
+    # Configured in roles.yaml
+    promotion_role_ids: ${roles.promotion_roles}
+    
+    # Branding for embeds
+    embed:
+      color: 0x6FC5EF  # Hex color for embed
+      title: "⭐️ promotion"
+      thumbnail_enabled: true  # Show user avatar
+      image_url: ""  # Optional: Banner image URL
+      footer_text: "tryliquid.xyz"
+      footer_icon_url: "https://i.imgur.com/mSMjmxY.png"  # Direct imgur link
+
+# Activity Checker
+activity_checker:
+  enabled: true
+  guild_id: ${DISCORD_GUILD_ID}  # Your Discord server ID
+  
+  # Roles to monitor for activity (from roles.yaml)
+  monitored_roles: ${roles.monitored}
+  
+  # Roles that are exempt from activity checks (from roles.yaml)
+  whitelisted_roles: ${roles.whitelists.activity_exempt}
+  
+  # Activity thresholds
+  min_messages: 5              # Minimum messages required
+  days_to_check: 4             # Check last N days
+  
+  # Send DMs to inactive users with friendly reminders
+  dm_inactive_users: true
+  
+  # Report channel (from channels.yaml)
+  report_channel_id: ${channels.activity_report}
+  
+  # Schedule (daily check)
+  schedule:
+    hour: 5  # UTC hour (5 AM UTC)
+    minute: 0
+  
+  # Embed styling
+  embed_color: 0xFF6B6B  # Red color for warnings
+
+# Nomination System
+nominations:
+  enabled: true
+  
+  # Channel where nominations are posted (from channels.yaml)
+  nomination_channel_id: ${channels.nomination}
+  
+  # Channel to search for tweets (set to channel ID or leave empty to search all channels)
+  # Example: "1234567890" or leave as empty string ""
+  tweets_search_channel_id: "1436229572403400887"  # 🪄⎜content channel
+  
+  # Roles that can nominate users (from roles.yaml)
+  allowed_nominator_roles: ${roles.whitelists.nominators}
+  
+  # Embed styling
+  embed_color: 0x6FC5EF  # Blue color
+  footer_text: "Vote with reactions below"  # Custom emoji work as reactions, not in footer text
+
+# Content Filter
+content_filter:
+  enabled: true
+  
+  # Channels where only x.com links and images are allowed (from channels.yaml)
+  filtered_channels: ${channels.content_filtered}
+  
+  # Roles exempt from filtering (from roles.yaml)
+  whitelisted_roles: ${roles.whitelists.content_filter_exempt}
+  
+  # Warning settings
+  send_warning: true
+  warning_message: "{user}, only messages with **x.com links or images** are allowed in this channel."
+  warning_delete_after: 5  # Seconds before warning is deleted
+
+# React All Command
+react_all:
+  enabled: true
+  
+  # Reactions to add (emojis)
+  reactions:
+    - "✅"
+    - "❌"
+  
+  # Roles that can use this command (in addition to admins) (from roles.yaml)
+  required_roles: ${roles.whitelists.react_all_users}
+  
+  # Settings
+  message_limit: 1000           # Maximum messages to react to
+  skip_bot_messages: true      # Skip bot messages
+
+# Content Submission System (Anti-Slop)
+# Liquid content moderation with guild-specific submission channels
+content_submissions:
+  enabled: true
+  
+  # Decision timeout - submissions expire if no decision within this time
+  decision_timeout_hours: 24
+  
+  # Maximum revision attempts before auto-rejection
+  max_revisions: 2
+  
+  # Submission channels per guild path (users submit content here)
+  channels:
+    traders: ""      # Channel ID for traders guild submissions
+    content: ""      # Channel ID for content guild submissions  
+    designers: ""    # Channel ID for designers guild submissions
+    approved: ""     # Channel ID where approved content is forwarded (read-only)
+    spotlight: ""    # Channel ID for spotlight content (optional, uses approved if empty)
+  
+  # Roles configuration
+  roles:
+    # T1+ roles that can vote on submissions (🟢/🟡/🔴)
+    t1_voters:
+      - "1449055127049605312"  # traders - tide
+      - "1449055171685515354"  # traders - degen
+      - "1449055325020754100"  # traders - speculator
+      - "1449054897486954506"  # content - drip
+      - "1449054975107010673"  # content - frame
+      - "1449055051829084353"  # content - orator
+      - "1449054607899758726"  # designers - ink
+      - "1449054761650225244"  # designers - sketch
+      - "1449054806038675569"  # designers - sculptor
+    
+    # Guild leads who can make final decisions
+    guild_leads:
+      - "1436799852171235472"  # Staff
+      - "1436767320239243519"  # Mish
+  
+  # Cooldown tiers (consecutive rejections -> cooldown hours)
+  # Applied silently, no public callouts
+  cooldown_tiers:
+    "2": 6    # 2 consecutive rejections = 6 hour cooldown
+    "3": 12   # 3 consecutive rejections = 12 hour cooldown
+    "4": 24   # 4 consecutive rejections = 24 hour cooldown
+    "5": 48   # 5+ consecutive rejections = 48 hour cooldown
+  
+  # Embed styling
+  embed_color: 0x83C2EB

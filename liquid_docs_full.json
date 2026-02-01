@@ -1,0 +1,393 @@
+[
+  {
+    "url": "https://docs.tryliquid.xyz/",
+    "title": "Liquid",
+    "content": "Ask\nLiquid\nLiquid: The Ultimate Financial Super App.\nLiquid Documentation\nWho We Are\nWe’re a team of technologists, traders, and builders from places like Two Sigma, SIG, D.E. Shaw, and Amazon. Based in New York City, we’ve seen firsthand how archaic and inefficient the financial system is—from slow settlements and hidden fees to clunky user interfaces.\nWe believe finance should be open, fast, and user-first. That’s why we built Liquid: a modern financial super app powered by crypto rails.\nWhat Is Liquid?\nLiquid is the easiest way to access the core building blocks of modern finance—all from your phone.\nCurrently available on iOS and Android (with web versions coming soon), Liquid combines trading, yield, and news into a seamless mobile experience designed for speed, transparency, and power users.\nKey Features\nTrading\nLowest Fees for Trading Tokens\nExecute crypto trades at industry-low fees with deep liquidity and fast execution.\nNews\nTrade What You Read\nCurated real-time financial news with embedded one-click trading.\nVaults\nEarn 14% APY\nPark your idle balances in on-chain vaults that yield up to 14% APY, with a short 4-day lockup.\nAudience\n50% Revenue Share\nInvite friends and earn up to 50% of the revenue they generate. Build your own financial audience.\nNext\nTrading\nLast updated 1 day ago",
+    "code_blocks": [],
+    "images": [
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      }
+    ],
+    "has_content": true
+  },
+  {
+    "url": "https://docs.tryliquid.xyz/trading/trading",
+    "title": "Trading",
+    "content": "Ask\nTrading\nLiquid offers many fun products to trade, like gold and crypto. This section explains the full extent of trading on Liquid.\nSpot Trading\nLiquid offers spot trading through the search bar. \nOn Liquid, you can purchase assets like Bitcoin, Ethereum, Solana, and the HYPE token, for no fees! In the United States, Liquid is by far the lowest-fee solution for purchasing Bitcoin. \nTrading with Multipliers\nLiquid's signature feature is letting you trade with multipliers. If you want to buy $100,000 of Bitcoin, you need $100,000 (and potentially thousands more to pay fees). However, on Liquid, you can buy exposure to $100,000 of Bitcoin with a mere $2,500 and a 40x multiplier. You can risk less to earn more! \nPrevious\nLiquid\nNext\nFees\nLast updated 3 months ago",
+    "code_blocks": [],
+    "images": [
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      }
+    ],
+    "has_content": true
+  },
+  {
+    "url": "https://docs.tryliquid.xyz/trading/trading/fees",
+    "title": "Fees",
+    "content": "Ask\nFees\nIn order to support the development of the app, Liquid charges fees to users. \nHyperliquid\nOn spot assets, where you buy the underlying assets, Liquid charges no additional fees, i.e., it charges exactly what Hyperliquid charges. \nOn perpetual futures, which represent directional exposure to the underlying assets, Liquid applies uniform 5 bps fees to both opening and closing trades through builder fees. \nWhat to know about Liquid fees:\nFees are based on your account’s rolling 14 day trading volume.\nFees are assessed at the end of each day (UTC).\nMaker rebates are paid out continuously on each trade directly to your wallet.\nLiquid uses separate fee schedules for perps and spot trading.\nPerps and spot volume are counted together to determine your fee tier.\nSpot volume counts double toward your fee tier:\n(14 day perps volume) + 2 * (14 day spot volume) = (14 day weighted volume)\nFor the sake of completeness, we show the full fee calculation here. \nBase rate\nDiamond\nPlatinum\nGold\nSilver\nBronze\nWood\nTier\n14 Day Weighted Volume ($)\nTaker\nMaker\nTaker\nMaker\nTaker\nMaker\nTaker\nMaker\nTaker\nMaker\nTaker\nMaker\nTaker\nMaker\n0\n0.095%\n0.065%\n0.0770%\n0.0590%\n0.0815%\n0.0605%\n0.0860%\n0.0620%\n0.0883%\n0.0628%\n0.0905%\n0.0635%\n0.0928%\n0.0643%\n1\n> 5M\n0.090%\n0.062%\n0.0740%\n0.0572%\n0.0780%\n0.0584%\n0.0820%\n0.0596%\n0.0840%\n0.0602%\n0.0860%\n0.0608%\n0.0880%\n0.0614%\n2\n> 25M\n0.085%\n0.058%\n0.0710%\n0.0548%\n0.0745%\n0.0556%\n0.0780%\n0.0564%\n0.0798%\n0.0568%\n0.0815%\n0.0572%\n0.0833%\n0.0576%\n3\n> 100M\n0.080%\n0.054%\n0.0680%\n0.0524%\n0.0710%\n0.0528%\n0.0740%\n0.0532%\n0.0755%\n0.0534%\n0.0770%\n0.0536%\n0.0785%\n0.0538%\n4\n> 500M\n0.078%\n0.050%\n0.0668%\n0.0500%\n0.0696%\n0.0500%\n0.0724%\n0.0500%\n0.0738%\n0.0500%\n0.0752%\n0.0500%\n0.0766%\n0.0500%\n5\n> 2B\n0.076%\n0.050%\n0.0656%\n0.0500%\n0.0682%\n0.0500%\n0.0708%\n0.0500%\n0.0721%\n0.0500%\n0.0734%\n0.0500%\n0.0747%\n0.0500%\n6\n> 7B\n0.074%\n0.050%\n0.0644%\n0.0500%\n0.0668%\n0.0500%\n0.0692%\n0.0500%\n0.0704%\n0.0500%\n0.0716%\n0.0500%\n0.0728%\n0.0500%\nThe table below shows spot fee tiers for Liquid traders.\nSpot\n14 Day Weighted Volume ($)\nBase Taker\nBase Maker\nDiamond Taker\nDiamond Maker\nPlatinum Taker\nPlatinum Maker\nGold Taker\nGold Maker\nSilver Taker\nSilver Maker\nBronze Taker\nBronze Maker\nWood Taker\nWood Maker\n0\n0.070%\n0.040%\n0.0420%\n0.0240%\n0.0490%\n0.0280%\n0.0560%\n0.0320%\n0.0595%\n0.0340%\n0.0630%\n0.0360%\n0.0665%\n0.0380%\n1\n> 5M\n0.060%\n0.030%\n0.0360%\n0.0180%\n0.0420%\n0.0210%\n0.0480%\n0.0240%\n0.0510%\n0.0255%\n0.0540%\n0.0270%\n0.0570%\n0.0285%\n2\n> 25M\n0.050%\n0.020%\n0.0300%\n0.0120%\n0.0350%\n0.0140%\n0.0400%\n0.0160%\n0.0425%\n0.0170%\n0.0450%\n0.0180%\n0.0475%\n0.0190%\n3\n> 100M\n0.040%\n0.010%\n0.0240%\n0.0060%\n0.0280%\n0.0070%\n0.0320%\n0.0080%\n0.0340%\n0.0085%\n0.0360%\n0.0090%\n0.0380%\n0.0095%\n4\n> 500M\n0.035%\n0.000%\n0.0210%\n0.0000%\n0.0245%\n0.0000%\n0.0280%\n0.0000%\n0.0298%\n0.0000%\n0.0315%\n0.0000%\n0.0333%\n0.0000%\n5\n> 2B\n0.030%\n0.000%\n0.0180%\n0.0000%\n0.0210%\n0.0000%\n0.0240%\n0.0000%\n0.0255%\n0.0000%\n0.0270%\n0.0000%\n0.0285%\n0.0000%\n6\n> 7B\n0.025%\n0.000%\n0.0150%\n0.0000%\n0.0175%\n0.0000%\n0.0200%\n0.0000%\n0.0213%\n0.0000%\n0.0225%\n0.0000%\n0.0238%\n0.0000%\nOstium\nOn Ostium assets, fees are charged only when entering a position, unlike in Hyperliquid where they are charged when exiting a position as well. Thus, 10 bps of taker fees on Ostium is equivalent to 5 bps of taker fees on Hyperliquid, excluding liquidations. \nOstium's fees on entry / exit are: \nCrypto: \nMaker / Taker: 3bps / 10bps\nOn Ostium, maker fees apply only if the leverage is at most 20x and if the trade reduces the OI imbalance. Otherwise, taker fees apply. \nIndices\nAll trades are taker; and the fees are 5 bps. \nFX\nAll trades are taker, the fees are 3 bps except for USD/MXN, which is 5 bps. \nStocks\nAll trades are taker, the fees are 5 bps. \nCommodities\nAll trades are taker, and the fees vary by asset:\nPair Name\nTaker fees\nXAU / USD\n3 bps\nCL / USD\n10 bps\nHG / USD\n15 bps\nXAG / USD\n15 bps\nXPT / USD\n20 bps\nXPD / USD\n20 bps\nOn all Ostium trades, Liquid takes an additional 5 bps. \nPrevious\nTrading\nNext\nTP / SL\nLast updated 9 days ago",
+    "code_blocks": [
+      "(14 day perps volume) + 2 * (14 day spot volume) = (14 day weighted volume)"
+    ],
+    "images": [
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      }
+    ],
+    "has_content": true
+  },
+  {
+    "url": "https://docs.tryliquid.xyz/trading/trading/tp-sl",
+    "title": "TP / SL",
+    "content": "Ask\nTP / SL\nManage your risk with Take Profits and Stop Losses\nTake Profits are price levels at which you take profit, and Stop Losses are price levels at which you sell to avoid losing more of your capital. In general, we strongly recommend setting stop losses to protect your capital. Cryptocurrency is volatile and trading with multipliers makes them especially volatile. \nThere are three ways to set take profit levels and stop losses: two places in the order form, and one place on the positions screen. \nOrder Form (Numerical)\nUnder the advanced tab of the order form, there is a place to set take profits and stop losses. Instead of a mental calculation, you can also calculate the take profit and stop loss based on the return on equity target.\n Order Form (Visual)\nAfter selecting the TP / SL on the order form, you can further refine your selection by looking at a visual interface.\n Position Screen (Visual)\nFinally, you can also modify the Take Profit and Stop Loss after the trade by clicking on the \n Previous\nFees\nNext\nTWAP\nLast updated 3 months ago",
+    "code_blocks": [],
+    "images": [
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3923798993-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fbtlf3GQzozWiOIxbebrF%252Fuploads%252Fo0cgEDhdNEhe4lGVYqqF%252FTP_SL_ROE.png%3Falt%3Dmedia%26token%3D15763552-24c3-4a1b-adf3-d88dae488488&width=300&dpr=4&quality=100&sign=437fb1f8&sv=2",
+        "alt": "",
+        "local_path": "a80da9e9e7b8.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3923798993-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fbtlf3GQzozWiOIxbebrF%252Fuploads%252FG12ALKmag4wkvh9TANpM%252FTP_SL_Visual.png%3Falt%3Dmedia%26token%3Dfdd085b3-67ff-463f-b562-850592f2b913&width=300&dpr=4&quality=100&sign=d31ef197&sv=2",
+        "alt": "",
+        "local_path": "648d5a114b7c.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3923798993-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fbtlf3GQzozWiOIxbebrF%252Fuploads%252F7EVKksigF0dmanElUTqk%252FTP_SL_Pencil.png%3Falt%3Dmedia%26token%3D23fe60a6-6401-4d10-878e-edf1e8dd1a82&width=300&dpr=4&quality=100&sign=5afb5834&sv=2",
+        "alt": "",
+        "local_path": "0bd9df2ef7f4.png"
+      }
+    ],
+    "has_content": true
+  },
+  {
+    "url": "https://docs.tryliquid.xyz/trading/trading/twap",
+    "title": "TWAP",
+    "content": "Ask\nTWAP\nMinimize price slippage with TWAP orders on Liquid.\nTWAP (Time-Weighted Average Price) lets you execute large trades over time by splitting them into smaller chunks and sending them at regular intervals. This reduces market impact and helps you get a better average price.\nWhy use TWAP on Liquid?\nLow fees\nLiquid offers some of the lowest taker fees in the market.\nSmart execution\nOrders can be randomized in time to prevent front-running and execution manipulation.\nSmoother fills\nAvoid large, sudden trades that can move the market against you.\nWhat is Slippage?\nSlippage is the difference between the price you intended to trade at and the price you actually get.\nTWAP helps minimize slippage by spreading your order over time and reducing price impact.\nPrevious\nTP / SL\nNext\nPoints\nLast updated 3 months ago",
+    "code_blocks": [],
+    "images": [
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      }
+    ],
+    "has_content": true
+  },
+  {
+    "url": "https://docs.tryliquid.xyz/trading/trading/points",
+    "title": "Points",
+    "content": "Ask\nPoints\nA brief description of how Liquid rewards early contributors to the platform\nLiquid points are distributed at the end of each season. Each user is awarded points in proportion to their contribution, according to a proprietary formula. The schedule is as follows:\nSeason 0 (May 1st to November 3rd): 600k points\nSeason 0.5 (November 3rd — November 17th): 200k points\nSeason 1 (Starting November 18th):\nWeek 1 (November 18th — November 24th): 100k points\nEvery week thereafter: (100k points)\nPrevious\nTWAP\nNext\nNews Feed\nLast updated 1 day ago",
+    "code_blocks": [],
+    "images": [
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      }
+    ],
+    "has_content": true
+  },
+  {
+    "url": "https://docs.tryliquid.xyz/news/news-feed",
+    "title": "News Feed",
+    "content": "Ask\nNews Feed\nLiquid turns the latest social media news into actionable trading decisions with a swipe-to-trade newsfeed inside every account. Traders can react to news items with left or right swipes that register as bearish or bullish biases, and the app will prompt you to express that bias in the market via opening a new trade.\nIn this section, learn more about: \nCustomizing the news feed.\nTrading from the news feed.\nPrevious\nPoints\nNext\nCustom Feeds\nLast updated 3 months ago",
+    "code_blocks": [],
+    "images": [
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      }
+    ],
+    "has_content": true
+  },
+  {
+    "url": "https://docs.tryliquid.xyz/news/news-feed/custom-feeds",
+    "title": "Custom Feeds",
+    "content": "Ask\nCustom Feeds\nTap the page icon 📃 at the bottom navigation bar.\nInside the feed, each content card shows real-time counts of other Liquid users who have previously reacted bearishly or bullishly to the news you are reading. Scroll endlessly to see as many social news items as you want.\nTo curate your news feed, tap the filter icon ▼ in the top right corner of the app.\nFrom the menu that appears, choose the content you want to populate your feed to focus on exactly the news accounts you care about. Liquid will remember your preferences. \nPrevious\nNews Feed\nNext\nNews Trading\nLast updated 3 months ago",
+    "code_blocks": [],
+    "images": [
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3923798993-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fbtlf3GQzozWiOIxbebrF%252Fuploads%252FuFd78cAxxhTGwcwciOH3%252FNEWSFEED-2.png%3Falt%3Dmedia%26token%3D8ecfed60-5d5e-4008-b0a6-4cc8bcf7e276&width=768&dpr=4&quality=100&sign=7696cf6a&sv=2",
+        "alt": "",
+        "local_path": "8c087a38e990.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXfVnNmubznDrqOv42J2xEykBuyVGhMQT2wVHhcTZVa7dEQW9AJd671aXSjMFf6JTBnmvnLYGx_akAd_k6Zq5kVI9IMSIizH9g18VSfl1ooiNmxdX1zTLAlQVGvcHsPhY1W0ZIhVFQ%3Fkey%3DxUMZ8y3uVP4iizu3BzWwRg&width=768&dpr=4&quality=100&sign=a66a53ae&sv=2",
+        "alt": "",
+        "local_path": "7d595ec4aa5c.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXc7SbaTXANJUrMzpzoobAoMuGTuegkmjuUs7TNvIY6cTyZk2F5NnsLL_KiWoDNof6mUIuItnBY2uYZjCh5SxkT3w7AUWrcZsfSTGwFyv7ygxoP-TpQU01zaB3IO4T0bdJ37gwazGw%3Fkey%3DxUMZ8y3uVP4iizu3BzWwRg&width=768&dpr=4&quality=100&sign=525bd52e&sv=2",
+        "alt": "",
+        "local_path": "a8c713b4eda9.png"
+      }
+    ],
+    "has_content": true
+  },
+  {
+    "url": "https://docs.tryliquid.xyz/news/news-feed/news-trading",
+    "title": "News Trading",
+    "content": "Ask\nNews Trading\nLiquid provides a gesture-heavy news feed you can trade from while scrolling. Each content card offers two different actions to tap into a new trade depending on your swiping and tapping preferences. \nWhile scrolling the feed, notice each card carries tallies of Bullish and Bearish votes. These are sourced from Liquid users who voted prior to you opening the newsfeed. If you agree, tap the Bullish or Bearish button to contribute your vote. If you want to express your bias as a trade, tap the Trade button that appears below the news card you voted on.\nThe app will redirect you to the order screen to enter the direction, amount, multiplier, and other details of your trade.\nIf you are reading the news feed but not considering votes by other users, simply swipe the news card to the left (bearish) or right (bullish) to express your bias.\nTo express your bias as a trade, tap the Trade button that appears below the news card you swiped. \nPrevious\nCustom Feeds\nNext\nVaults\nLast updated 3 months ago",
+    "code_blocks": [],
+    "images": [
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXfMe7z3Dfqk_XRT8sx03o-WUZDBiHmLtyoMvZ987Gt4-y7LCUM5XQ3x9P1G0c4CtgIbJiseyGtwDEj6d1aNQwDPHvvszZTO0l5WzIHaNGRIle1VjbQv4-h7ZHjhtovpttdMu1nM%3Fkey%3DxUMZ8y3uVP4iizu3BzWwRg&width=768&dpr=4&quality=100&sign=d2437575&sv=2",
+        "alt": "",
+        "local_path": "20d6602ce34b.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXdzRjfgNUf38QsFcxLDfgRU-TZwwCpy-sfBGDW-uh5Yl4Jp9GswwZPw06FFX7FkYfV3J6idKYGBM2bmNXxIzDMAVSLfAhj7D03yq8acecli0__7KzzA348RPcfr0TXfGDzz1Pdq8w%3Fkey%3DxUMZ8y3uVP4iizu3BzWwRg&width=768&dpr=4&quality=100&sign=6b866313&sv=2",
+        "alt": "",
+        "local_path": "7f5263c7f425.png"
+      }
+    ],
+    "has_content": true
+  },
+  {
+    "url": "https://docs.tryliquid.xyz/vaults/vaults",
+    "title": "Vaults",
+    "content": "Ask\nVaults\nThe highest-yielding, nearly risk free, source of income.\nHLP Vault\nThe HLP Vault is a yield-bearing product that lets users earn high interest on their crypto deposits by participating in Hyperliquid’s native liquidity provisioning strategy.\nHow It Works\nWhen you deposit into the HLP Vault, your funds are allocated to the Hyperliquid Liquidity Provider (HLP) strategy. This strategy operates natively on the Hyperliquid exchange, where it benefits from privileged access to liquidation flow and order book data. This edge allows HLP to run sophisticated market-making algorithms that have historically delivered strong, consistent returns.\nThanks to this performance, the HLP Vault is currently offering yields around 10% APY, though rates may vary with market conditions.\n4-Day Lockup\nTo ensure system integrity and prevent abuse:\nEach deposit triggers a 4-day lockup period during which withdrawals are disabled.\nSubsequent deposits reset the cooldown, meaning the timer restarts from your most recent deposit.\nThis design helps maintain strategy stability and prevents spam on the backend.\nPrevious\nNews Trading\nNext\nReferral Bonuses\nLast updated 3 months ago",
+    "code_blocks": [],
+    "images": [
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      }
+    ],
+    "has_content": true
+  },
+  {
+    "url": "https://docs.tryliquid.xyz/audience/referral-bonuses",
+    "title": "Referral Bonuses",
+    "content": "Ask\nReferral Bonuses\nEvery Liquid user is eligible to earn referral bonuses when their friends create an account using your referral code and start trading. The Referrals tab is your personal hub for monitoring the passive revenue you earn by inviting anyone in your social circles to try Liquid.\nTurn your network of crypto traders into real income and receive up to 50% of the fees on their trades automatically. The more friends who join Liquid using your referral code, the more you earn.\nPrevious\nVaults\nNext\nRewards Hub\nLast updated 3 months ago",
+    "code_blocks": [],
+    "images": [
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      }
+    ],
+    "has_content": true
+  },
+  {
+    "url": "https://docs.tryliquid.xyz/audience/referral-bonuses/rewards-hub",
+    "title": "Rewards Hub",
+    "content": "Ask\nRewards Hub\nOpen the Referrals Hub by tapping the gift icon 🎁 on the bottom navigation bar.\nInside the referrals window, you’ll immediately find your lifetime rewards, any unclaimed bonuses, and the invite tools you’ll need, including:\nClaimed referral rewards\nUnclaimed referral rewards\nNumber of friends referred\nYour referral code\nReferrals information\nAll the earnings and referral stats shown in this window refresh automatically. Track them whenever you open Liquid on your mobile device.\nPrevious\nReferral Bonuses\nNext\nRefer Traders\nLast updated 3 months ago",
+    "code_blocks": [],
+    "images": [
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXeWtF7Tbv5DBsoOPxDDtmGj8ebvDd2OGG39Tuf4LwcsPd2aC0BJGOtvZ5NA8chWnVDGFE0lG6wFu7h8jA0ZnEV1LTd6KFZXTJf2wRwOlhUueCQuvk3dZXyPRMEoCSwfNRdIk52Usg%3Fkey%3DxUMZ8y3uVP4iizu3BzWwRg&width=768&dpr=4&quality=100&sign=43da3c7e&sv=2",
+        "alt": "",
+        "local_path": "40b529606b29.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXf2Z8EQ8fMTPcoOHPb2uMgsyMCgupyk1XcRA01mkl-nwPjsCm9r_RnRoi48ZcMHNrfcOLXIlR-225XW7bgXk8R2ntvHoIKW8KEQxCEzZDsfmtlCdvB2BI8ArD3RAWUgEbDp7HP_Ug%3Fkey%3DxUMZ8y3uVP4iizu3BzWwRg&width=768&dpr=4&quality=100&sign=3cae975a&sv=2",
+        "alt": "",
+        "local_path": "669e2e8a0eb7.png"
+      }
+    ],
+    "has_content": true
+  },
+  {
+    "url": "https://docs.tryliquid.xyz/audience/referral-bonuses/refer-traders",
+    "title": "Refer Traders",
+    "content": "Ask\nRefer Traders\nInvite your friends to try Liquid with the code inside your referrals hub or by generating a link that points to your code.\nTo share a link, open the referrals hub and tap the “Invite a friend” button.\nA link is generated that you can send directly through SMS, Telegram, WhatsApp, or other messaging apps. Or you can copy the link and navigate to whatever app you choose to paste and send it to a friend.\nTo share your unique referral code, find the 8-digit alphanumeric string (e.g., “ABCD3FG1”) at the middle of the screen. Tap the “Copy” button next to it. \nPaste it in Telegram, Discord, or wherever your friend is waiting.\nAn invited trader will enter your code when prompted by the app as they create a new Liquid account. \nWhen they start trading on the app, your referral bonus balance will update.\nPrevious\nRewards Hub\nNext\nClaim Rewards\nLast updated 3 months ago",
+    "code_blocks": [],
+    "images": [
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXfVh3u_i-wjvsaSiCc-e73lUpVfMmZQCdxy3I25CuLooFpCfijVdT_NCSU-LEspwHqYoeX-2IarRj1foPX86v1fbdDV1FS3qZqSg008viXKMQj8f0ClySiEWb1rxKPWbts7HhJ63w%3Fkey%3DxUMZ8y3uVP4iizu3BzWwRg&width=768&dpr=4&quality=100&sign=2fd86b8&sv=2",
+        "alt": "",
+        "local_path": "0b7a55d2d436.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXc6L72V1MVLryIPu07SQQ2dTydrSNW2XbeGYum_Ln2zO6TvwcmxnFWrnZjpzwGg-QUQoYBQ5syJdSPLpshCV9bx04oTIT2bAmbdN8fQH1jfhiJ9swBJ6eDqKNSGseMWOdy2WFY_uw%3Fkey%3DxUMZ8y3uVP4iizu3BzWwRg&width=768&dpr=4&quality=100&sign=274f780b&sv=2",
+        "alt": "",
+        "local_path": "acf1db2e81eb.png"
+      }
+    ],
+    "has_content": true
+  },
+  {
+    "url": "https://docs.tryliquid.xyz/audience/referral-bonuses/claim-rewards",
+    "title": "Claim Rewards",
+    "content": "Ask\nClaim Rewards\nRewards for referring traders can be claimed at any time.\nTap the gift icon 🎁 to open the referrals hub. \nThen press the large Claim Rewards button near the middle of the screen. \nAfter claiming, funds denominated in USDC will deposit to your Liquid account address.\nThe Claim Rewards button remains greyed out until the unclaimed rewards balance rises above $0.00.\nPrevious\nRefer Traders\nNext\nTroubleshooting\nLast updated 3 months ago",
+    "code_blocks": [],
+    "images": [
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3923798993-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Fbtlf3GQzozWiOIxbebrF%252Fuploads%252FgmmNFCJayJsPE4hPUE6Z%252FREFERRALS-1-FINAL.png%3Falt%3Dmedia%26token%3D4016ba8f-ef85-43e1-b597-fc0e0eaad701&width=768&dpr=4&quality=100&sign=ab29788d&sv=2",
+        "alt": "",
+        "local_path": "4cb25c61f04c.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXcGBTxwlNLkugKUdEi8s94zsL7aMrzOiVC3cifqMWa4GWMv6av9iFbzmZU8I4KBvA-Gbf-K7TUDfoG5fb-XXhqxdj3JA9RvNKiH-HQD6gMDXPMKTDfzk-YdYbMHYwybYdM6hvUHWA%3Fkey%3DxUMZ8y3uVP4iizu3BzWwRg&width=768&dpr=4&quality=100&sign=d3aff11b&sv=2",
+        "alt": "",
+        "local_path": "30df8f0a0502.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXdcSm0AZd9GxNXhQ-_AtkifuUTfKKtAss82gTvtvAs0KnAjM5N0zMcNPOky6dJ0UU8x8ejUvPN1SFgDVi7ngimzuWp8NvAxpUa4ZdRHN1oPTnhfcRLqf6z8mzA-ptwIszCs3KMN%3Fkey%3DxUMZ8y3uVP4iizu3BzWwRg&width=768&dpr=4&quality=100&sign=69be5246&sv=2",
+        "alt": "",
+        "local_path": "30b020242160.png"
+      }
+    ],
+    "has_content": true
+  },
+  {
+    "url": "https://docs.tryliquid.xyz/audience/referral-bonuses/troubleshooting",
+    "title": "Troubleshooting",
+    "content": "Ask\nTroubleshooting\nIf you’re experiencing issues with inviting friends, claiming rewards, or any other referral tasks, we’re here to resolve them for you.\nTap the home icon 🏠 on the left of the bottom navigation bar.\nAt the top right of the hope screen, press “Text Us!”\nYour messaging app will open with our support number auto-filled in the text recipient field. Text us: “I’m having problems with my referrals.” Our team will respond ASAP. \nPrevious\nClaim Rewards\nNext\nFAQ\nLast updated 3 months ago",
+    "code_blocks": [],
+    "images": [
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXcGxqAgxSKjiAEi7RzKeGCJ0oBW9W5JN8UIT7-v8yFsoslsjSQu5aEFuDogh8RyV0_Tqfg3G9Ff6QC-kmCahCaxKcaHl7s_NYm2PobuYiTH2E8Hi0wCG8vGM0POwfXIzhdzCdazkw%3Fkey%3DxUMZ8y3uVP4iizu3BzWwRg&width=768&dpr=4&quality=100&sign=f9c8e95e&sv=2",
+        "alt": "",
+        "local_path": "ffbad49f1f7e.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXeNcbnhU8A5UX4L4Qpy33-0FxWd_hiivje_eCAnxeSmfhgkyZvYSo4dLOSGROKA3v2vTqi48o9PEKzbhqlW62m5NzlrpFNELju7tnkzKLuGmicVMp-RWDreIF5GKwYhL7K2VwQHNg%3Fkey%3DxUMZ8y3uVP4iizu3BzWwRg&width=768&dpr=4&quality=100&sign=5447140e&sv=2",
+        "alt": "",
+        "local_path": "39c7117a3c4f.png"
+      }
+    ],
+    "has_content": true
+  },
+  {
+    "url": "https://docs.tryliquid.xyz/faq",
+    "title": "FAQ",
+    "content": "Ask\nFAQ\nFrequently Asked Questions\nHow is Liquid different from a Centralized Exchange? (e.g. Robinhood, Coinbase) \nLiquid is non-custodial, meaning we never hold your funds or personal data. You trade directly from your own wallet, and your assets remain in your control at all times. This is fundamentally different from centralized exchanges like Robinhood or Coinbase, which take custody of your assets and personal information.\nKey Differences\nYou control your assets.\nWith Liquid, funds are stored in your wallet—not ours. There’s no single point of failure or risk of your funds being frozen, seized, or misused.\nNo KYC honeypots.\nCentralized exchanges store massive amounts of sensitive identity data (e.g. passports, selfies, SSNs). If that data is hacked—as has happened with platforms like Coinbase—you’re exposed. Liquid doesn’t require KYC to trade, so there’s nothing to leak.\nCensorship-resistant.\nOn Liquid, no one can freeze your account or block your trades. Everything is executed on-chain, permissionlessly.\nNo custodial blowups.\nWith a CEX, you’re trusting them not to go bankrupt, halt withdrawals, or run fractional reserves. With Liquid, there’s no trust required. \nPrevious\nTroubleshooting\nLast updated 3 months ago",
+    "code_blocks": [],
+    "images": [
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      },
+      {
+        "url": "https://docs.tryliquid.xyz/~gitbook/image?url=https%3A%2F%2F3619730017-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252F7hIYFerB5CRhj4HAzMfR%252Fsites%252Fsite_vj9qa%252Ficon%252FGWUh1d6uaEQ0Bw9TIQ4S%252FIcon.jpg%3Falt%3Dmedia%26token%3D91884328-081d-40cb-94ff-c264be1e3241&width=32&dpr=4&quality=100&sign=e30c0be8&sv=2",
+        "alt": "",
+        "local_path": "732954278814.png"
+      }
+    ],
+    "has_content": true
+  }
+]

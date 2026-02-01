@@ -1,0 +1,53 @@
+# System Configuration (Logging, Monitoring, Performance)
+
+# Logging configuration
+logging:
+  level: ${LOG_LEVEL:INFO}
+  format: json
+  file: logs/bot.log
+  rotation: 100MB
+  retention: 30 days
+  
+  # Production mode: simplified emoji-oriented logs
+  production_mode: ${PRODUCTION_MODE:true}
+  
+  # Structured logging fields
+  include_fields:
+    - timestamp
+    - level
+    - message
+    - module
+    - function
+    - line
+    - extra
+  
+  # Log specific events
+  log_llm_calls: true
+  log_rag_retrievals: true
+  log_indexing: true
+
+# Monitoring configuration
+monitoring:
+  metrics:
+    enabled: true
+    port: 8080
+    path: /metrics
+
+# Performance settings
+performance:
+  max_concurrent_requests: 10
+  request_timeout: 30
+  retry_attempts: 3
+  retry_backoff: 2
+  
+  # Cache settings
+  cache:
+    enabled: true
+    ttl: 3600  # seconds
+    max_size: 1000
+
+# Rate limiting (per user)
+rate_limit:
+  enabled: true
+  requests_per_minute: 10
+  burst: 5

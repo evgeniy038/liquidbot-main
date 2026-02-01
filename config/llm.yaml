@@ -1,0 +1,21 @@
+# LLM and Embeddings Configuration
+
+llm:
+  provider: openrouter
+  api_key: ${OPENROUTER_API_KEY}
+  provisioning_key: ${OPENROUTER_PROVISIONING_KEY}
+  model: x-ai/grok-4-fast  # Main model for text responses
+  # vision_model: google/gemini-flash-1.5  # Disabled - not needed
+  temperature: 0.7
+  max_tokens: 2000
+  timeout: 30
+  base_url: https://openrouter.ai/api/v1
+
+embeddings:
+  provider: openrouter
+  api_key: ${OPENROUTER_API_KEY}
+  model: openai/text-embedding-3-large
+  dimension: 3072
+  clip_model: openai/clip-vit-large-patch14
+  batch_size: 100
+  base_url: https://openrouter.ai/api/v1

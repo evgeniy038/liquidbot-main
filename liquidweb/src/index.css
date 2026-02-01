@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
+
+:root {
+  /* Dark Theme Default based on websitedesign.json */
+  --color-bg: #131318;
+  --color-text: #FFFFFF;
+  --color-text-secondary: #949494; /* Keeping this for now as it's not explicitly in JSON but needed */
+  --color-primary: #EDEDFF;
+  --color-primary-text: #131318;
+  --color-accent: #E0DFEF;
+  --color-card-bg: #1A1A23; /* Slightly lighter than bg */
+  --color-badge-border: rgba(224, 223, 239, 0.1);
+  --color-badge-shadow: rgba(0, 0, 0, 0.5);
+  --font-family: 'Inter', sans-serif; /* Fallback as Saans is not available */
+  --max-width: 1440px;
+  --border-radius: 20px;
+}
+
+[data-theme='light'] {
+  --color-bg: #FFFFFF;
+  --color-text: #131318;
+  --color-text-secondary: #555;
+  --color-primary: #EDEDFF; /* JSON defines primary as this, even for branding */
+  --color-primary-text: #131318;
+  --color-card-bg: #F0F0F5;
+  --color-badge-border: #E0E0E0;
+  --color-badge-shadow: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Utilities */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Button styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  font-family: inherit;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-primary-text);
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(237, 237, 255, 0.2);
+}
+
+.section {
+  padding: 80px 0;
+}
+
+/* Tweet container styling (react-tweet) */
+.tweet-wrapper {
+  width: 100%;
+  max-width: 550px;
+}
+
+/* Override react-tweet default styles for dark theme */
+[data-theme="dark"] .react-tweet-theme,
+:root .react-tweet-theme {
+  --tweet-bg-color: var(--color-card-bg);
+  --tweet-border-color: var(--color-badge-border);
+  --tweet-color-text-primary: var(--color-text);
+  --tweet-color-text-secondary: var(--color-text-secondary);
+}
+
+[data-theme="light"] .react-tweet-theme {
+  --tweet-bg-color: #ffffff;
+  --tweet-border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Glass card style */
+.glass-card {
+  background: var(--color-card-bg);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-badge-border);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+}

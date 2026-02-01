@@ -1,0 +1,19 @@
+# Discord Bot Configuration
+
+discord:
+  token: ${DISCORD_TOKEN}
+  guild_id: ${DISCORD_GUILD_ID}
+  command_prefix: "!"
+  intents:
+    - messages
+    - guilds
+    - message_content
+  
+  # Whitelist of allowed guild IDs (production safety)
+  # Bot will ONLY respond in these servers
+  # Leave empty [] to allow all servers (not recommended for production)
+  allowed_guilds:
+    - 1436216692299796563  # Your main server
+    # Add more guild IDs here if needed:
+    # - 123456789012345678
+    # - 987654321098765432

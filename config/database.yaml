@@ -1,0 +1,49 @@
+# Vector Database and Auto-Indexing Configuration
+
+vector_db:
+  provider: qdrant
+  # Use local storage (no Docker needed)
+  path: ./qdrant_storage
+  collection_prefix: discord_bot
+  distance_metric: cosine
+  
+  # Indexing configuration
+  chunking:
+    strategy: semantic
+    max_chunk_size: 500
+    overlap: 100
+    similarity_threshold: 0.8
+    add_context_headers: true
+  
+  # Retrieval configuration
+  retrieval:
+    top_k: 5
+    hybrid_search: true
+    alpha: 0.5  # Balance between vector (0) and keyword (1)
+    reranking: true
+    reranker_model: cross-encoder/ms-marco-MiniLM-L-12-v2
+    min_score: 0.3
+
+# Auto-indexing configuration
+auto_indexing:
+  enabled: true
+  queue_size: 1000
+  
+  # Performance optimization
+  parallel_channels: 5      # Max channels to scrape in parallel
+  batch_size: 100           # Messages per batch for indexing (50 recommended)
+  batch_timeout: 5  # seconds
+  exclude_channels:
+    - "1437479234938343515"  # Excluded - no access/causes rate limits
+  exclude_bots: true
+  
+  # Exclude specific Discord categories from indexing and RAG
+  # Messages from channels in these categories will NOT be indexed or used for responses
+  ignored_categories: []
+    
+  
+  # Background scraping (on startup)
+  # false = Only scrape NEW messages (real-time), save progress for next restart
+  # true = Scrape full history on first run, then incremental updates
+  scrape_on_startup: true
+  scrape_limit_per_channel: null  # Number of LATEST messages per channel (or null for all)
